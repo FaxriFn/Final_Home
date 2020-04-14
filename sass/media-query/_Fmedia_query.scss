@@ -1,0 +1,129 @@
+@media screen and (max-width:1024px) {
+    .medicalCenterImg{
+    //    overflow: hidden !important;
+    
+    }
+
+    .container {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    //     overflow-x: hidden;
+    }
+    .medicalCounter {
+        margin-top: initial !important;
+
+}
+.professionalDoctor {
+    width: 94% !important;
+    margin: auto;
+}
+.medicalCenterText {
+    width: 100% !important;
+    margin: initial !important;
+}
+}
+@media screen and (max-width:768px) {
+ 
+    
+    .cardTestimonials {
+        padding: 0 15px 46px;}
+
+    .medicalCenterCount {
+        flex-direction: row;
+        text-align: center;
+
+    }
+    
+    .medicalCounter {
+        margin-top: 0px !important;
+    }
+    .medicalCenterImg{
+        display: none !important;
+    
+    }
+    .lastestNewsSlider {
+  
+        
+        overflow: hidden !important;
+}
+
+
+    .medicalCenterCount .counter-wrap1:last-child {
+        display: none !important;
+    }
+    .lastestNewsTitle, .professionalDoctorRow{
+      
+        display: block !important;
+          justify-content: initial !important;
+    }
+    .testimonialsTitle h2{
+        font-size: 24px !important;
+        line-height: 40px !important;
+    }
+      .professionalDoctorRow{
+        width: 86% !important;
+        margin: auto;
+    }
+
+}
+
+
+@media screen and (max-width:576px) {
+  
+  
+    .medicalCenterImg{
+        display: none;
+
+    }
+
+    .medicalCounter {
+        margin-top: 46px !important;
+       
+    }
+    .medicalCenterText h2 {
+        font-size: 30px;
+        line-height: 40px
+    }
+    .cmsCounterTitle {
+        padding-bottom: 50px !important;
+    }
+
+    .medicalCenterCount .counter-wrap1:last-child {
+        display: block !important;
+    }
+
+    .medicalCenterCount {
+        flex-direction: column;
+        text-align: center;
+
+    }
+ 
+
+}
+
+
+
+
+@media screen and (max-width:1260px){
+    .professionalDoctor {
+        width: 100% !important;
+       
+    }
+}
+
+@media screen and(max-width:320px){
+    .testimonialsSlider{
+        width: 430px !important;
+    }
+    .testimonialsTitle h2{
+        font-size: 20px !important;
+        line-height: 40px !important;
+    }
+}
+@media screen and (max-width:1160px){
+    .professionalDoctor {
+    width: 100% !important;
+    }
+}
