@@ -15,11 +15,12 @@ $(function () {
       $('#indexWeDoBest').css('opacity', '0.3');
       $('#ourVision').css('opacity', '0.3');
 
-      $('#modalHome').show(100);
       $('.modalHomeYoutubeContent iframe').animate({
         width: '90%',
         height: '70vh'
       }, 1000)
+      $('#modalHome').slideDown(1000);
+
       $('body').css('overflow', 'hidden');
 
 
@@ -151,7 +152,7 @@ $(function () {
   // ========================================================//
   // Aos
   AOS.init({
-    delay: 1000,
+    delay: 600,
 
   });
   // ========================================================//
