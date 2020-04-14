@@ -1444,22 +1444,26 @@ nav .container .row .nav-right .search-basket .burger:hover {
 
 #bigPhoto .bigPhotoCenter:hover .hoveredContent {
   background-color: #303030;
-  width: 99px;
-  height: 99px;
-  border-radius: 100%;
+  -webkit-transform: scale(99);
+          transform: scale(99);
+  border-radius: 50%;
 }
 
 #bigPhoto i {
   position: absolute;
+  z-index: 111;
   font-size: 26px;
   color: white;
 }
 
 #bigPhoto .hoveredContent {
+  border-radius: 50%;
   width: 1px;
   -webkit-transition: .5s;
   transition: .5s;
   height: 1px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
   background-color: #303030;
 }
 
@@ -1561,6 +1565,11 @@ nav .container .row .nav-right .search-basket .burger:hover {
       -ms-flex-align: center;
           align-items: center;
   background-color: black;
+}
+
+#modalHome .modalHomeContent .modalHomeYoutubeContent iframe {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 #indexWeDoBest {
