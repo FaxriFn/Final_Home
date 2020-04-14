@@ -1,5 +1,4 @@
 #bigPhoto{
-    border: 1px solid;
     height: calc(100vh - 80px);
     background-image: url(../img/main-home-video.jpg);
     background-repeat: no-repeat !important;
@@ -23,9 +22,9 @@
             .hoveredContent{
           
                 background-color: #303030;
-                width: 99px;
-                height: 99px;
-                border-radius: 100%;
+                transform: scale(99);
+
+                border-radius: 50%;
             }
          
         }
@@ -33,15 +32,18 @@
     }
     i{
         position: absolute;
-
+        z-index: 111;
         font-size: 26px;
         color: white;
     }
     .hoveredContent{
+        border-radius: 50%;
+
        
         width: 1px;
         transition: .5s;
         height: 1px;
+        transform: scale(1);
         background-color: #303030; 
        
     }

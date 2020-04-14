@@ -10,14 +10,15 @@ $(function () {
     })
     $(document).on('click', '.bigPhotoCenter', function () {
       $('#modalHome').css('top', `${scrollTop}px`);
+      $('nav').hide();
       $('.modalHomeYoutubeContent iframe').attr('src', ' https://www.youtube.com/embed/h59cKcb_J2M');
       $('#indexWeDoBest').css('opacity', '0.3');
       $('#ourVision').css('opacity', '0.3');
 
       $('#modalHome').show(100);
       $('.modalHomeYoutubeContent iframe').animate({
-        width: '920px',
-        height: '500px'
+        width: '90%',
+        height: '70vh'
       }, 1000)
       $('body').css('overflow', 'hidden');
 
@@ -35,6 +36,8 @@ $(function () {
 
 
       $('#modalHome').hide(100);
+      $('nav').show();
+
       $('body').css('overflow', 'visible');
       $('.modalHomeYoutubeContent iframe').animate({
         width: '360px',
@@ -49,6 +52,8 @@ $(function () {
 
 
       $('#modalHome').hide(100);
+      $('nav').show();
+
       $('body').css('overflow', 'visible');
       $('.modalHomeYoutubeContent iframe').animate({
         width: '360px',

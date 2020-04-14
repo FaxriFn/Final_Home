@@ -1,8 +1,29 @@
 #indexWeDoBest{
-    border: 1px solid red;
+    
     
     .indexWeDoBestContent{
         padding: 35px 15px 0px;
+        .viewAllDepartment{
+            padding: 75px 0 120px;
+            display: flex;
+            justify-content: center;
+            color: white;
+           
+            .viewAllContent{
+                &:hover{
+                    background-color: rgba(0, 125, 242, 1);
+                    border-color: #303030;
+
+                   
+
+                }
+                transition: .6s;
+                background-color: #303030;
+                padding: 15.5px 35px;
+                border-radius: 5px;
+                width: 20%;
+            }
+        }
         .weDoBestText{
             padding: 82px 0px 67px;
             .bestFirstSpan{
