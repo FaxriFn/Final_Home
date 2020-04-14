@@ -701,7 +701,6 @@ nav .container .row .nav-right .search-basket .burger:hover {
 /* ========================================================================================================= HOME */
 .homeContainer {
   background-color: transparent;
-  margin: 20px 0;
 }
 
 .homeFrame {
@@ -1413,7 +1412,6 @@ nav .container .row .nav-right .search-basket .burger:hover {
 }
 
 #bigPhoto {
-  border: 1px solid;
   height: calc(100vh - 80px);
   background-image: url(../img/main-home-video.jpg);
   background-repeat: no-repeat !important;
@@ -1572,12 +1570,33 @@ nav .container .row .nav-right .search-basket .burger:hover {
           transform: scale(1);
 }
 
-#indexWeDoBest {
-  border: 1px solid red;
-}
-
 #indexWeDoBest .indexWeDoBestContent {
   padding: 35px 15px 0px;
+}
+
+#indexWeDoBest .indexWeDoBestContent .viewAllDepartment {
+  padding: 75px 0 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+#indexWeDoBest .indexWeDoBestContent .viewAllDepartment .viewAllContent {
+  -webkit-transition: .6s;
+  transition: .6s;
+  background-color: #303030;
+  padding: 15.5px 35px;
+  border-radius: 5px;
+  width: 20%;
+}
+
+#indexWeDoBest .indexWeDoBestContent .viewAllDepartment .viewAllContent:hover {
+  background-color: #007df2;
+  border-color: #303030;
 }
 
 #indexWeDoBest .indexWeDoBestContent .weDoBestText {
