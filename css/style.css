@@ -1719,12 +1719,6 @@ nav .container .row .nav-right .search-basket .burger:hover {
 }
 
 @media screen and (max-width: 1024px) {
-  .container {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-  }
   .medicalCounter {
     margin-top: initial !important;
   }
