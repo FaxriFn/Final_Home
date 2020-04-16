@@ -1,0 +1,360 @@
+@import "shared/variables";
+@import "shared/fonts";
+@import "pages/home";
+
+
+.pagesFaq {
+    width: 100%;
+    background-color: #f5f5f5;
+
+    .contentPagesFaq {
+        padding-top: 92px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+
+        .pagesFaqLeft {
+
+
+
+
+
+            .pagesFaqList {
+
+
+
+                .pagesFaqContent {
+                    background: white;
+                    cursor: pointer;
+                    padding: 16px 21px;
+                    border: 1px solid rgba(0, 0, 0, 0.151);
+                    box-sizing: border-box;
+                    text-align: left;
+                    margin-bottom: 13px;
+
+                    h5 {
+                        color: black;
+                        font-size: 18px;
+                        line-height: 26px;
+                        font-family: Poppins;
+                    }
+
+                    p {
+
+                        a {
+                            color: #888;
+                            margin: 0;
+                            font-size: 14px;
+                            line-height: 22px;
+                            cursor: pointer;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+
+
+
+
+            }
+        }
+
+
+        .pagesFaqAccardion {
+            background-color: white;
+            // max-width: 720px;
+
+            .accardionTitle {
+                font-size: 16px;
+                line-height: 22px;
+                font-weight: 600;
+                cursor: pointer;
+                display: block;
+                position: relative;
+                padding: 18px 49px 18px 29px;
+
+                h3 {
+                    font-size: 20px !important;
+                    margin: 0 0 15px;
+                    color: #303030;
+                    font-family: Poppins;
+                    font-weight: 600
+                }
+            }
+
+            .pagesFaqAcc {
+                // width: 750px;
+                padding-bottom: 20px !important;
+                padding-left: 78px ;
+                padding-right: 53px ;
+                // transition: 0.3s;
+            }
+
+            .accHeader {
+                border: #e7e7e7 solid 1px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                // transition: .5s;
+
+                &:hover {
+                    background-color: $content-color;
+
+                }
+            }
+
+            .accHeader i {
+                position: absolute;
+                top: 50%;
+                right: 30px;
+                margin-top: -11px;
+                font-size: 22px;
+                cursor: pointer;
+
+            }
+
+            .accHeader a {
+                font-size: 16px;
+                line-height: 22px;
+                font-weight: 600;
+                cursor: pointer;
+                display: block;
+                position: relative;
+                padding: 18px 99px 18px 29px;
+                color: black;
+            }
+
+            .accBody {
+           
+            
+                line-height: 22px;
+                border-top: 0;
+                background: #fff;
+                border: #e6e6e6 solid 1px;
+                display: none;
+                // transition: .6s !important;
+                p{
+                    padding: 20px !important;
+                }
+            }
+
+        }
+
+
+
+    }
+
+  
+
+
+    .defaultColor {
+        text-decoration: none;
+        color: black;
+        // transition: .3s;
+
+        &:hover {
+            color: $content-color;
+        }
+    }
+
+    .activeColor {
+        border: 1px solid $content-color !important;
+
+    }
+
+    .activeHead {
+        background-color: $content-color !important;
+        color: white !important;
+    }
+
+    .activeWord {
+        color: $content-color !important;
+    }
+
+    .accHeader:hover i {
+        color: white !important;
+    }
+
+    .accHeader:hover a {
+        color: white !important;
+    }
+
+    .colorDefault{
+        color: white !important;
+    }
+.twoAcc1,.twoAcc2,.twoAcc3,.twoAcc4,.twoAcc5{
+    display: none ;
+}
+
+    
+
+    
+
+}
+
+#bigPhotoContact {
+
+    padding-top: 251px;
+    padding-bottom: 117px;
+    background-image: url('http://syring.spyropress.com/wp-content/uploads/2019/01/pagetitle-aboutus2.jpg');
+    background-position: center;
+    background-size: cover;
+
+    .title {
+        text-align: center;
+        font-size: 36px;
+        line-height: 45px;
+        color: #303030;
+        text-align: center;
+        font-weight: 600;
+
+    }
+    .subTitle{
+        padding: 10px 15px 0px;
+    display: flex;
+        justify-content: center;
+        font-weight: 500 !important;
+        span{
+            padding-right: 6px;
+            padding-left: 3px;
+            color: #303030;
+        }
+
+
+  
+}
+}
+
+
+
+        .appointmentContainer {
+            background-color: rgba(0, 125, 242, 1);
+            height: 160px;
+            margin: 0 0 20px;
+        }
+
+        .appointmentContainerCenter {
+            height: 100%;
+            margin: auto;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .circleImage {
+            position: absolute;
+            bottom: 0;
+            z-index: 9;
+        }
+
+        .appointmentContent {
+            position: relative;
+            z-index: 10;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+            h2{
+                font-weight: 600;
+                font-size: 36px;
+                color: #fff;
+                font-family: "Poppins";
+                margin: 0;
+            }
+
+            .appointBTN {
+                background-color: white;
+                height: 55px;
+                width: 235px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: "Poppins";
+                font-weight: 500;
+                font-size: 15px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.5s;
+            }
+        
+
+        .appointBTN:hover {
+            background-color: #303030 !important;
+            color: white !important;
+        }
+        .noneClassMajid{
+            display: none !important;
+        }
+      
+          
+// Media
+
+        @media screen and (min-width: 1200px) {
+
+            .appointmentContainerCenter {
+                width: 1140px;
+            }
+            
+        }
+
+
+        @media screen and (max-width: 1200px) {
+
+            .appointmentContainerCenter {
+                width: 90%;
+            }
+            #bigPhotoContact {
+                padding: 48px 0 24px 0 !important;
+}
+                }
+        
+
+
+
+        @media screen and (max-width: 1000px) {
+            .appointmentContent h2 {
+                width: 100%;
+                margin-bottom: 20px;
+                font-size: 30px;
+            }
+            .pagesFaqAcc {
+              
+                padding-bottom: 20px !important;
+                padding-left: 7px !important;
+                padding-right: 5px !important;
+                transition: 0.3s;
+            }
+        }
+        @media screen and (max-width:768px){
+       
+        }
+        @media screen and (max-width:767px) {
+       
+         .acc1,.acc2,.acc3,.acc4,.acc5{
+             display: none !important;
+         }
+         
+.twoAcc1{
+    display: block !important;
+}
+
+
+
+
+      }
+        @media screen and (max-width: 560px) {
+            .appointmentContainer {
+                height: 220px;
+            }
+            .pagesFaqAcc {
+                // width: 750px;
+                padding-bottom: 20px !important;
+                padding-left: 18px !important;
+                padding-right: 5px !important;
+            }
+        }
