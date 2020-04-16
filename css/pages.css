@@ -1,0 +1,557 @@
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucHtA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Poppins Medium Italic"), local("Poppins-MediumItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Poppins Medium Italic"), local("Poppins-MediumItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: local("Poppins Medium Italic"), local("Poppins-MediumItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Poppins SemiBold Italic"), local("Poppins-SemiBoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Poppins SemiBold Italic"), local("Poppins-SemiBoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Poppins SemiBold Italic"), local("Poppins-SemiBoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VFteOcEg.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VGdeOcEg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VF9eO.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins Medium"), local("Poppins-Medium"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins Medium"), local("Poppins-Medium"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins Medium"), local("Poppins-Medium"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  font-family: Poppins;
+  font-weight: 500;
+  color: #777;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  word-wrap: break-word;
+  padding: 0;
+  margin: 0;
+}
+
+.pagesFaq {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.pagesFaq .contentPagesFaq {
+  padding-top: 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqLeft .pagesFaqList .pagesFaqContent {
+  background: white;
+  cursor: pointer;
+  padding: 16px 21px;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: left;
+  margin-bottom: 13px;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqLeft .pagesFaqList .pagesFaqContent h5 {
+  color: black;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: Poppins;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqLeft .pagesFaqList .pagesFaqContent p a {
+  color: #888;
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqLeft .pagesFaqList .pagesFaqContent p a:hover {
+  text-decoration: none;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqAccardion {
+  background-color: white;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqAccardion .accardionTitle {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: 18px 49px 18px 29px;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqAccardion .accardionTitle h3 {
+  font-size: 20px !important;
+  margin: 0 0 15px;
+  color: #303030;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqAccardion .pagesFaqAcc {
+  padding-bottom: 20px !important;
+  padding-left: 78px;
+  padding-right: 53px;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqAccardion .accHeader {
+  border: #e7e7e7 solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqAccardion .accHeader:hover {
+  background-color: #007df2;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqAccardion .accHeader i {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  margin-top: -11px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqAccardion .accHeader a {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: 18px 99px 18px 29px;
+  color: black;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqAccardion .accBody {
+  line-height: 22px;
+  border-top: 0;
+  background: #fff;
+  border: #e6e6e6 solid 1px;
+  display: none;
+}
+
+.pagesFaq .contentPagesFaq .pagesFaqAccardion .accBody p {
+  padding: 20px !important;
+}
+
+.pagesFaq .defaultColor {
+  text-decoration: none;
+  color: black;
+}
+
+.pagesFaq .defaultColor:hover {
+  color: #007df2;
+}
+
+.pagesFaq .activeColor {
+  border: 1px solid #007df2 !important;
+}
+
+.pagesFaq .activeHead {
+  background-color: #007df2 !important;
+  color: white !important;
+}
+
+.pagesFaq .activeWord {
+  color: #007df2 !important;
+}
+
+.pagesFaq .accHeader:hover i {
+  color: white !important;
+}
+
+.pagesFaq .accHeader:hover a {
+  color: white !important;
+}
+
+.pagesFaq .colorDefault {
+  color: white !important;
+}
+
+.pagesFaq .twoAcc1, .pagesFaq .twoAcc2, .pagesFaq .twoAcc3, .pagesFaq .twoAcc4, .pagesFaq .twoAcc5 {
+  display: none;
+}
+
+#bigPhotoContact {
+  padding-top: 251px;
+  padding-bottom: 117px;
+  background-image: url("http://syring.spyropress.com/wp-content/uploads/2019/01/pagetitle-aboutus2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#bigPhotoContact .title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 45px;
+  color: #303030;
+  text-align: center;
+  font-weight: 600;
+}
+
+#bigPhotoContact .subTitle {
+  padding: 10px 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500 !important;
+}
+
+#bigPhotoContact .subTitle span {
+  padding-right: 6px;
+  padding-left: 3px;
+  color: #303030;
+}
+
+.appointmentContainer {
+  background-color: #007df2;
+  height: 160px;
+  margin: 0 0 20px;
+}
+
+.appointmentContainerCenter {
+  height: 100%;
+  margin: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circleImage {
+  position: absolute;
+  bottom: 0;
+  z-index: 9;
+}
+
+.appointmentContent {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #fff;
+  font-family: "Poppins";
+  margin: 0;
+}
+
+.appointBTN {
+  background-color: white;
+  height: 55px;
+  width: 235px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.appointBTN:hover {
+  background-color: #303030 !important;
+  color: white !important;
+}
+
+.noneClassMajid {
+  display: none !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .appointmentContainerCenter {
+    width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .appointmentContainerCenter {
+    width: 90%;
+  }
+  #bigPhotoContact {
+    padding: 48px 0 24px 0 !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .appointmentContent h2 {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  .pagesFaqAcc {
+    padding-bottom: 20px !important;
+    padding-left: 7px !important;
+    padding-right: 5px !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .acc1, .acc2, .acc3, .acc4, .acc5 {
+    display: none !important;
+  }
+  .twoAcc1 {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .appointmentContainer {
+    height: 220px;
+  }
+  .pagesFaqAcc {
+    padding-bottom: 20px !important;
+    padding-left: 18px !important;
+    padding-right: 5px !important;
+  }
+}
+/*# sourceMappingURL=pages.css.map */
